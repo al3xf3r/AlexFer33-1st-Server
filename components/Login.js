@@ -15,7 +15,16 @@ function Login() {
                height={200} width={200} />
                
                
-               <button onClick={authenticate} className="bg-orange-600 rounded-lg p-5 font-bold animate-pulse">Login to the AlexFer33 1st Server</button>
+               <button 
+               onClick={authenticate} 
+               className="bg-orange-600 rounded-lg p-5 font-bold animate-pulse">
+                   Login with Metamask</button>
+
+                <button
+                onClick={() => authenticate ({provider: 'walletconnect'})}
+                className="bg-orange-600 rounded-lg p-5 font-bold animate-pulse">
+                    Login with WallectConnect
+                </button>
             </div>
 
             <div className="w-full h-screen">
