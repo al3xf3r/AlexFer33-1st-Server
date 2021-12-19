@@ -11,7 +11,7 @@ function Login() {
                
                <Image
                className="object-cover rounded-full"
-               src="https://bitcoin4me.it/wp-content/uploads/2021/12/2143902-design-del-logo-della-testa-di-volpe-gratuito-vettoriale.jpg"
+               src="https://bitcoin4me.it/wp-content/uploads/2021/12/2143902-design-del-logo-della-testa-di-volpe-gratuito-vettoriale-e1639823583709.jpg"
                height={200} width={200} />
                
                
